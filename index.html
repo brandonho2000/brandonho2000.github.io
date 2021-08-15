@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr"
+  <head>
+  <meta charset="utf-8">
+  <title>Treasure Hunt Game</title>
+  <link rel="shortcut icon" type="image/jpeg" href="https://www.maxpixel.net/static/photo/1x/Pirate-Treasure-Treasure-Map-Treasure-Hunt-Map-153425.png" />
+  <link rel="stylesheet" href="treasurehunt.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 id="top-page"> Treasure Hunt Game </h1>
+<h2> Good luck on your quest! </h2>
+<img src="https://openclipart.org/download/301681/1526022434.svg" height="500px"/>
+<p>Rules of the game:</p>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+<div id="rules">
+  <ol>
+
+    <li>Press on the question marks and find the treasure!</li>
+    <li>Find the diamond and you win!</li>
+    <li>Find the bomb and you lose!</li>
+  </ol>
+</div>
+<table>
+  <tr>
+    <td height="60px" id=0 onclick="treasure(0)">?</td>
+    <td height="60px" id=1 onclick="treasure(1)">?</td>
+    <td height="60px" id=2 onclick="treasure(2)">?</td>
+  </tr>
+  <tr>
+    <td height="60px" id=3 onclick="treasure(3)">?</td>
+    <td height="60px" id=4 onclick="treasure(4)">?</td>
+    <td height="60px" id=5 onclick="treasure(5)">?</td>
+  </tr>
+  <tr>
+    <td height="60px" id=6 onclick="treasure(6)">?</td>
+    <td height="60px" id=7 onclick="treasure(7)">?</td>
+    <td height="60px" id=8 onclick="treasure(8)">?</td>
+  </tr>
+</table>
+<button type="button" onclick="location.reload()">Restart Game</button>
+
+<script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+  <footer>
+    &copyNate and Brandon
+    <a href="#top-page">Top of page</a>
+    <br>
+    <a href="https://www.google.com" target="_blank">Google this stuff</a>
+  </footer>
+  </html>
